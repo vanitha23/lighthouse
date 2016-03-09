@@ -1,0 +1,10 @@
+x = 10
+def prove_scope(y)
+  p y
+end
+
+prove_scope(x)
+#this takes value of x put it in prove_scope
+#value of x is given to y inside the function
+#returns value of y as the same as x in answer
+#variable y is arbituary(can be assnd even as zebra)

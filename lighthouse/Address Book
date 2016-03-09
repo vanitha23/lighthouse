@@ -1,0 +1,20 @@
+Address Book
+************ 
+hold many
+add new info
+delete
+modify
+search
+
+contacts = [{name:a},{name:b},{name:c},...]
+if we want  - one_contact = contacts[0] to get first value
+
+class Contact
+  def initialize
+    @name = "adam" -|
+    @age = 27      _|   =>This is scope        
+end
+
+def name
+  @name
+end
